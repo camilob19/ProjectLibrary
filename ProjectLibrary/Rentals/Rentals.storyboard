@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I96-9i-xgC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rentals View Controller-->
+        <scene sceneID="NcD-NU-5mS">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="erg-TU-oRE" customClass="RentalsViewController" customModule="ProjectLibrary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Muz-MF-DnX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bc_nav bar" translatesAutoresizingMaskIntoConstraints="NO" id="WkU-M4-ruk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="gYy-Gg-PYJ"/>
+                                    <constraint firstAttribute="height" constant="130" id="obG-FI-z9e"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F1v-dU-4fx">
+                                <rect key="frame" x="0.0" y="170" width="414" height="652"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group" translatesAutoresizingMaskIntoConstraints="NO" id="60s-i9-PUq">
+                                <rect key="frame" x="274" y="44" width="120" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="SKN-ro-avh"/>
+                                    <constraint firstAttribute="height" constant="70" id="hhO-mx-izY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="i4n-BA-up6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WkU-M4-ruk" firstAttribute="trailing" secondItem="i4n-BA-up6" secondAttribute="trailing" id="6TB-f4-ZDU"/>
+                            <constraint firstItem="60s-i9-PUq" firstAttribute="top" secondItem="i4n-BA-up6" secondAttribute="top" id="7Y9-E6-lg7"/>
+                            <constraint firstItem="WkU-M4-ruk" firstAttribute="leading" secondItem="i4n-BA-up6" secondAttribute="leading" id="JIH-9X-3y6"/>
+                            <constraint firstItem="i4n-BA-up6" firstAttribute="trailing" secondItem="F1v-dU-4fx" secondAttribute="trailing" id="LVW-sL-LPo"/>
+                            <constraint firstItem="F1v-dU-4fx" firstAttribute="top" secondItem="WkU-M4-ruk" secondAttribute="bottom" constant="40" id="ZkN-PN-WPg"/>
+                            <constraint firstItem="F1v-dU-4fx" firstAttribute="leading" secondItem="i4n-BA-up6" secondAttribute="leading" id="mb8-5H-N8i"/>
+                            <constraint firstItem="i4n-BA-up6" firstAttribute="trailing" secondItem="60s-i9-PUq" secondAttribute="trailing" constant="20" id="o07-4S-fSr"/>
+                            <constraint firstItem="WkU-M4-ruk" firstAttribute="top" secondItem="Muz-MF-DnX" secondAttribute="top" id="qFN-RL-3Y1"/>
+                            <constraint firstItem="i4n-BA-up6" firstAttribute="bottom" secondItem="F1v-dU-4fx" secondAttribute="bottom" constant="40" id="yxo-Ot-x1J"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mkI-Zh-JtQ"/>
+                    <connections>
+                        <outlet property="tableView" destination="F1v-dU-4fx" id="5eo-hT-dn0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fOr-dA-a6Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4324.6376811594209" y="-220.3125"/>
+        </scene>
+        <!--Rentals-->
+        <scene sceneID="nV7-uW-X4m">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="I96-9i-xgC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Rentals" image="ic_myrentals" selectedImage="ic_myrentals" id="YbZ-dF-4nv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3ku-id-CUJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="erg-TU-oRE" kind="relationship" relationship="rootViewController" id="RMa-yY-tgP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O1K-Tq-rEV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3568.115942028986" y="-220.3125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group" width="161" height="122"/>
+        <image name="bc_nav bar" width="375" height="102"/>
+        <image name="ic_myrentals" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
