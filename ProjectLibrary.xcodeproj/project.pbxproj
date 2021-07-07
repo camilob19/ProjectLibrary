@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B95092726964535009FB9D0 /* HomeBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B95092626964535009FB9D0 /* HomeBookViewController.swift */; };
 		9A2F08A1268E5C4A001191E8 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F08A0268E5C4A001191E8 /* Library.storyboard */; };
 		9A2F08A7268E5DF6001191E8 /* WishList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F08A6268E5DF6001191E8 /* WishList.storyboard */; };
 		9A2F08AF268E60ED001191E8 /* AddNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F08AE268E60ED001191E8 /* AddNew.storyboard */; };
@@ -62,7 +63,6 @@
 		9A99E285268C344800ADD941 /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A99E283268C344800ADD941 /* BookDetailViewController.xib */; };
 		9A99E289268C3E6B00ADD941 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99E287268C3E6B00ADD941 /* CommentTableViewCell.swift */; };
 		9A99E28A268C3E6B00ADD941 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A99E288268C3E6B00ADD941 /* CommentTableViewCell.xib */; };
-		9AC242FB268BBF7E009D3103 /* HomeBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC242FA268BBF7E009D3103 /* HomeBookViewController.swift */; };
 		ACE21FC96A4D98B60387C928 /* Pods_ProjectLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAEF766ECDC2295E6B0DE1A /* Pods_ProjectLibraryTests.framework */; };
 		BDBAF5924BEAFDDCA16713ED /* Pods_ProjectLibrary_ProjectLibraryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B9FD9F78FE09ED8C27A6E3 /* Pods_ProjectLibrary_ProjectLibraryUITests.framework */; };
 		DC4BED8EC0CFD93AB1F4F3E4 /* Pods_ProjectLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971DD3ED1B69ADE80F44510C /* Pods_ProjectLibrary.framework */; };
@@ -89,6 +89,7 @@
 		3F6F9FF61939FBE13D0524DC /* Pods-ProjectLibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectLibraryTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectLibraryTests/Pods-ProjectLibraryTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FF7BD7EFA6F55B5B29B19BD /* Pods-ProjectLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectLibrary.debug.xcconfig"; path = "Target Support Files/Pods-ProjectLibrary/Pods-ProjectLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		46B9FD9F78FE09ED8C27A6E3 /* Pods_ProjectLibrary_ProjectLibraryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectLibrary_ProjectLibraryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B95092626964535009FB9D0 /* HomeBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBookViewController.swift; sourceTree = "<group>"; };
 		8DAEF766ECDC2295E6B0DE1A /* Pods_ProjectLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		971DD3ED1B69ADE80F44510C /* Pods_ProjectLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2F08A0268E5C4A001191E8 /* Library.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
@@ -152,7 +153,6 @@
 		9A99E283268C344800ADD941 /* BookDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
 		9A99E287268C3E6B00ADD941 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		9A99E288268C3E6B00ADD941 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
-		9AC242FA268BBF7E009D3103 /* HomeBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeBookViewController.swift; path = ../../../Documents/HomeBookViewController.swift; sourceTree = "<group>"; };
 		B10D1F7ACFA0C1398ED81957 /* Pods-ProjectLibraryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectLibraryTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectLibraryTests/Pods-ProjectLibraryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5EB9F9D17D3B125A85AF49C /* Pods-ProjectLibrary-ProjectLibraryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectLibrary-ProjectLibraryUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjectLibrary-ProjectLibraryUITests/Pods-ProjectLibrary-ProjectLibraryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CD045BF77536EDD7E56CF8DE /* Pods-ProjectLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectLibrary.release.xcconfig"; path = "Target Support Files/Pods-ProjectLibrary/Pods-ProjectLibrary.release.xcconfig"; sourceTree = "<group>"; };
@@ -468,7 +468,7 @@
 				9A2F09082690E80D001191E8 /* Login */,
 				9AC242FC268BC0E6009D3103 /* ListBookCell */,
 				9A57C8AD268AD1DC004F8E7C /* Main.storyboard */,
-				9AC242FA268BBF7E009D3103 /* HomeBookViewController.swift */,
+				5B95092626964535009FB9D0 /* HomeBookViewController.swift */,
 				9A2F08E9268FB03B001191E8 /* HomeTabBarViewController.swift */,
 			);
 			path = HomeViewcontroller;
@@ -771,13 +771,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC242FB268BBF7E009D3103 /* HomeBookViewController.swift in Sources */,
 				9A2F09DE26937E94001191E8 /* WishListViewModel.swift in Sources */,
 				9A2F09602690FE73001191E8 /* HomeViewModel.swift in Sources */,
 				9A2F08D8268E83EC001191E8 /* GeneralTextfield.swift in Sources */,
 				9A2F09D926937DFE001191E8 /* Favorites+CoreDataProperties.swift in Sources */,
 				9A2F09EE269385B7001191E8 /* Rentals+CoreDataClass.swift in Sources */,
 				9A2F093C2690F2C2001191E8 /* BooksModels.swift in Sources */,
+				5B95092726964535009FB9D0 /* HomeBookViewController.swift in Sources */,
 				9A2F08D3268E66CF001191E8 /* WishListViewController.swift in Sources */,
 				9A2F09FC2693B036001191E8 /* SettingsViewModel.swift in Sources */,
 				9A2F09542690F503001191E8 /* BookLoader.swift in Sources */,
